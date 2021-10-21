@@ -7,12 +7,20 @@
 //
 
 import UIKit
-
+import AmzurMobileFramworks
 class ViewController: UIViewController {
 
+    lazy private var alert:CustomeAlert = {
+        let cAlert = CustomeAlert()
+        cAlert.cancelButton.isHidden = true
+        return cAlert
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        alert.showAlert(alertType: .info, title: "Alert", message: "Good Evening")
+        
     }
 
     override func didReceiveMemoryWarning() {

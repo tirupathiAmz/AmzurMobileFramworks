@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27292D1D619D90FCD7FD859A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27292D1D619D90FCD7FD859A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F98CC532B4B53F638BF03CB /* Pods-AmzurMobileFramworks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmzurMobileFramworks_Example.release.xcconfig"; path = "Target Support Files/Pods-AmzurMobileFramworks_Example/Pods-AmzurMobileFramworks_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AmzurMobileFramworks_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmzurMobileFramworks_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BA6FE5915879BD1863CDC40 /* Pods-AmzurMobileFramworks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmzurMobileFramworks_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AmzurMobileFramworks_Tests/Pods-AmzurMobileFramworks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADDD05A3DCF201860760BE29 /* Pods-AmzurMobileFramworks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmzurMobileFramworks_Example.debug.xcconfig"; path = "Target Support Files/Pods-AmzurMobileFramworks_Example/Pods-AmzurMobileFramworks_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B27A0A57C16FD99906E6853D /* AmzurMobileFramworks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AmzurMobileFramworks.podspec; path = ../AmzurMobileFramworks.podspec; sourceTree = "<group>"; };
+		B27A0A57C16FD99906E6853D /* AmzurMobileFramworks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AmzurMobileFramworks.podspec; path = ../AmzurMobileFramworks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD3F85E0D2255D8A7523AA41 /* Pods-AmzurMobileFramworks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmzurMobileFramworks_Tests.release.xcconfig"; path = "Target Support Files/Pods-AmzurMobileFramworks_Tests/Pods-AmzurMobileFramworks_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C95844535FF2B0C5A1446468 /* Pods_AmzurMobileFramworks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmzurMobileFramworks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DF82B4603FC3F899A83525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9DF82B4603FC3F899A83525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA0BC9D462C1966398FFF4F9 /* Pods_AmzurMobileFramworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmzurMobileFramworks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				6BA6FE5915879BD1863CDC40 /* Pods-AmzurMobileFramworks_Tests.debug.xcconfig */,
 				BD3F85E0D2255D8A7523AA41 /* Pods-AmzurMobileFramworks_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
